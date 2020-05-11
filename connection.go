@@ -25,10 +25,10 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/internal/buffer"
-	"github.com/jacobsa/fuse/internal/freelist"
-	"github.com/jacobsa/fuse/internal/fusekernel"
+	"github.com/vrobot/fuse/fuseops"
+	"github.com/vrobot/fuse/internal/buffer"
+	"github.com/vrobot/fuse/internal/freelist"
+	"github.com/vrobot/fuse/internal/fusekernel"
 )
 
 type contextKeyType uint64
